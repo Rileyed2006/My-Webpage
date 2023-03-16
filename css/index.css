@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+
+body{
+    font-family: 'Smokum', cursive;
+    background-color:  #CBC3E3;
+    font-size: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+
+}
