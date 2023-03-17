@@ -13,5 +13,5 @@ body{
 .header{
     align-items:top;
     display:flex;
-    justify-content;
+    justify-content: top;
 }
