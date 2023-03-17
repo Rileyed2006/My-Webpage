@@ -7,6 +7,11 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-   
 
+
+}
+.header{
+    align-items:top;
+    display:flex;
+    justify-content;
 }
