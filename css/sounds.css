@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Smokum&display=swap');
 body{
     font-family: 'Playfair Display', serif;
-font-family: 'Smokum', cursive;
-background-color: #0000FF;
+    font-family: 'Smokum', cursive;
+    background-color: #0000FF;
 }
