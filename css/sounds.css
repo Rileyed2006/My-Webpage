@@ -4,3 +4,9 @@ body{
     font-family: 'Smokum', cursive;
     background-color: #0000FF;
 }
+.btn{
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    background-color: #00008B;
+    
+}
