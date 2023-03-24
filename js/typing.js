@@ -1,6 +1,6 @@
 const textEl =document.getElementById('text')
 const speedEl = document.getElementById('speed')
-const text = "We love programing!!!"
+const text = "Naomi Works At WildWaters <3"
 let idx = 1
 let speed = 300
 
