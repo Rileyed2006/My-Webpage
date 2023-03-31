@@ -1,4 +1,4 @@
-button = document.quereySelector('.btn')
+button = document.querySelector('.btn')
 search = document.querySelector('.search')
 
 
