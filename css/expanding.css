@@ -22,8 +22,9 @@
     background-repeat: no-repeat;
     color: white;
     flex: 1;
-    position:reletive;
+    position:relative;
     transition: all 1s ease-in;
+    cursor: pointer;
 }
 .panel h3{
     font-size: 24px;
@@ -38,5 +39,5 @@
 }
 .panel.active h3 {
     opacity: 1;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.5s ease-in 0.5s;
 }
