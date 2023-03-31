@@ -23,11 +23,11 @@ body {
 }
 
 .progress-container{
-postion: relative;
-display:flex;
-justify-content:space-between;
-width: 350px;
-margin-bottom: 30px;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 30px;
 }
 
 .progress-container::before{
@@ -47,7 +47,7 @@ margin-bottom: 30px;
     position: absolute;
     width:0%;
     height:4px;
-    background-color: white;
+    background-color:blue;
     top: 50%;
     left:0;
     z-index:-1;
@@ -67,7 +67,7 @@ margin-bottom: 30px;
 }
 .circle.active{
     border-color: white;
-    transition:border-color 0.5s ease 0.3s;
+    transition:0.5s ease 0.3s;
 }
 .btn{
     background-color: var(--blue);
@@ -86,5 +86,5 @@ margin-bottom: 30px;
 .btn:disabled{
     background-color: var(--grey);
     cursor: not-allowed;
-    font-color: #ffffff;
+    color: #ffffff;
 }
