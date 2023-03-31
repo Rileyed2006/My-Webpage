@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1f1f1f;
+    background-color: #ffffff;
     font-family: 'Roboto Slab', serif;
     display: flex;
     height:100vh;
@@ -55,6 +55,7 @@ body {
     transition: width 0.5s ease;
 
 }
+
 .circle{
     background-color: #C1E1C1;
     height:30px;
