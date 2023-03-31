@@ -7,7 +7,7 @@ let int = setInterval(blurring, 30)
 
 function blurring(){
     load++
-    loadText.innerText = `$(load)%`
+    loadText.innerText = `${load}%`
     if (load == 100){
         clearInterval(int)
     }
