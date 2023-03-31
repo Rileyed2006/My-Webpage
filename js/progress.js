@@ -1,7 +1,7 @@
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
 const progress = document.getElementById('progress')
-const circle = document.getElementById('.circle')
+const circles = document.getElementById('.circle')
 
 
 let currentActive = 1
@@ -34,7 +34,7 @@ function update(){
         prev.disabled = false
         next.disabled = false
     }
-    circle.forEach((circle, index) => {
+    circles.forEach((circle, index) => {
         if (index < currentActive){
             circle.calssList.add('active')
         }
