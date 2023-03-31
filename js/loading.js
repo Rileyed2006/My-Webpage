@@ -11,7 +11,7 @@ function blurring(){
     if (load == 100){
         clearInterval(int)
     }
-    bg.style.filter = `blur(${30 - load}px)`
+    bg.style.filter = `blur(${30 - 0.3*load}px)`
     loadText.style.opacity = `$(1-load/100)`
 
 }
