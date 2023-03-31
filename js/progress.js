@@ -6,7 +6,7 @@ const circle = document.getElementById('.circle')
 
 let currentActive = 1
 
-nex.addEventListener('cick', () =>{
+next.addEventListener('cick', () =>{
     currentActive++
     if (currentActive > 4){
         currentActive = 4
@@ -32,9 +32,9 @@ function update(){
     }
     else{
         prev.disabled = false
-        next.disabled  false
+        next.disabled = false
     }
-    circles.forEach((circle, index) => {
+    circle.forEach((circle, index) => {
         if (index < currentActive){
             circle.calssList.add('active')
         }
