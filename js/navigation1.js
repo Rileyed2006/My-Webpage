@@ -1,10 +1,10 @@
 const open = document.getElementByID('open')
-const close = document.getElementByID('cole')
-const container = document.queryselector('.container')
+const close = document.getElementByID('close')
+const container = document.querySelector('.container')
 
 open.addEventListener('click', () => {
-    container.cassList.add('show-nav')
+    container.classList.add('show-nav')
 })
 close.addEventListener('click', () => {
-    container.cassList.remove('show-nav')
+    container.classList.remove('show-nav')
 })
