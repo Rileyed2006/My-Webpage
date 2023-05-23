@@ -34,7 +34,7 @@ function update(){
         prev.disabled = false
         next.disabled = false
     }
-    circles.foreach((circle, index) => {
+    circles.forEach((circle, index) => {
         if (index < currentActive){
             circle.calssList.add('active')
         }
