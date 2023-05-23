@@ -39,8 +39,7 @@ function update(){
         next.disabled = false
     }
 
-    const actives = document.querySelectorAll('.active')
-    progress.style.width = 1 / 3 * 100 + '%'
+
 
     circles.forEach((circle, index) => {
         if (index < currentActive){
@@ -50,4 +49,8 @@ function update(){
             circle.classList.remove('active')
         }
     })
+
+
+    const actives = document.querySelectorAll('.active')
+    progress.style.width = (actives.length -1) / 3 * 100 + '%'
 }
