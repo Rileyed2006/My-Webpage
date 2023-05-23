@@ -29,10 +29,11 @@ body{
     width: 200px;
     background-color: #E683A9Fd;
     border-radius: 50%;
+    position: relative;
     transition: transform 1s linear;
 
   }
-  .circle.show-nav .circle{
+  .container.show-nav .circle{
     transform: rotate(-70deg);
   }
   .circle button{
