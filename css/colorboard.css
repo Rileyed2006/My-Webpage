@@ -7,20 +7,20 @@ body{
     justify-content: center;
     margin:0;
     overflow:hidden;
-
-
 }
 .container{
     display:flex;
     flex-wrap: wrap;
-    maz-width: 400px;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
 }
 .square{
     height: 16px;
     width:16px;
     margin: 2px;
     background-color: #1d1d1d;
-    transition: 2s ease
+    transition: 2s ease;
 }
 .square:hover{
     transition-duration: 0s;
